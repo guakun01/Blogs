@@ -14,3 +14,19 @@
 
 # 购买服务器
 1. 通过 [hosteons](https://my.hosteons.com/cart.php) 购买一台 VPS
+ - 选择 `Debain10` 的系统
+
+# 域名映射
+1. 通过 `Cloudflare` 域名映射到对应机器
+ - 并 `ping` 通
+
+# SSH 到对应机器
+1. 部署 `XUI`
+```bash
+apt update -y          # Debian/Ubuntu 命令
+apt install -y curl socat    #Debian/Ubuntu 命令
+bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh) #X-ui面板安装
+```
+
+# 申请泛域名
+> 匹配 *.your.doamin
