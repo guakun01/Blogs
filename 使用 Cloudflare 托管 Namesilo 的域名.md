@@ -39,4 +39,8 @@ bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
 2. 在 `xui` 面板设置中配置 `/root/*csr & key`
  - 配置成功后即可通过 `https` 协议访问域名
 
+# 使用 cdn 加速
+![image](https://user-images.githubusercontent.com/48549103/211514538-f287aa14-7e90-46c6-a31e-0c0c12b5f966.png)
+
+软件 `Qv2ray` 导入
 
