@@ -1,0 +1,2 @@
+# Blogs
+Repo for blogs
