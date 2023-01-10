@@ -30,3 +30,13 @@ bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
 
 # 申请泛域名
 > 匹配 *.your.doamin
+
+1. 输入 `x-ui`
+
+![image](https://user-images.githubusercontent.com/48549103/211484784-9342ab0e-5280-455d-955b-fea71b2cc23e.png)
+按照提示完成域名添加
+
+2. 在 `xui` 面板设置中配置 `/root/*csr & key`
+ - 配置成功后即可通过 `https` 协议访问域名
+
+
